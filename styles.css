@@ -1,0 +1,277 @@
+/* html tags */
+
+body {
+  background-color: #222021;
+  color: white;
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+  font-size: 3rem;
+  margin: 0% 0% 5% 0%;
+}
+
+h2 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Acme", sans-serif;
+}
+
+p {
+  font-weight: 500;
+}
+
+/* container fluid */
+
+.container-fluid {
+  padding: 3% 8%;
+}
+
+/* navigation */
+
+/* navigation brand name styling */
+
+.navbar-brand {
+  width: 50%;
+  font-size: 1.8rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+/* navigation link */
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* navigation bar bottom padding */
+
+.bottom-padding {
+  margin: 0% 0% 10% 0%;
+}
+
+.navbar-image {
+  width: 35px;
+  background-color: goldenrod;
+  padding: 5px;
+  border: 1px solid #222021;
+  border-radius: 10px;
+  margin: 0 0 6px 0;
+}
+
+/* title image */
+
+.sec-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: black 18px 18px 20px;
+}
+
+/* heading padding */
+
+#heading {
+  padding: 30px 0px;
+}
+
+/* download buttons */
+
+.dwn-btn {
+  margin: 8% 3% 5% 0%;
+}
+
+/* features section */
+
+#features {
+  padding: 7% 10%;
+  margin: 5% auto;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.feature-box p {
+  color: gray;
+}
+
+.icon {
+  color: goldenrod;
+  padding: 0% 0% 8% 0%;
+}
+
+.icon:hover {
+  color: gray;
+}
+
+/* testimonials */
+
+#testimonial {
+  text-align: center;
+  color: gray;
+  font-weight: 600;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/* carousel item */
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/* pricing section */
+
+#pricing {
+  text-align: center;
+  margin: 5% auto;
+}
+
+#pricing h2 {
+  color: goldenrod;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  margin: 5% auto;
+}
+
+.card {
+  background-color: #222021;
+  padding: 0%;
+  text-align: center;
+  margin: 2% auto;
+  box-shadow: black 10px 10px 10px;
+}
+
+.card-body {
+  padding: 0%;
+}
+
+.card button {
+  margin: 2% 5%;
+}
+
+.row {
+  width: 95%;
+  margin: 3% auto;
+}
+
+/* download section  */
+
+#download {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 3%;
+  margin: 2% auto;
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+.fab {
+  color: goldenrod;
+}
+
+.pad {
+  padding: 10px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  /* container-fluid */
+
+  .container-fluid {
+    padding: 0%;
+  }
+
+  /* navigation menu */
+
+  .navbar {
+    width: 90%;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+    margin: 1% 1% 1% 2%;
+  }
+
+  /* heading */
+
+  #heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .hd-2 h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* top container buttons */
+
+  .btn-lg {
+    padding: 5px 5px;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    width: 120px;
+  }
+
+  /* top container image */
+
+  .sec-img {
+    margin: 5% 0%;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  /* pricing section */
+
+  #pricing h2 {
+    font-size: 1.8rem;
+    color: goldenrod;
+  }
+
+  #pricing h3 {
+    font-size: 1.4rem;
+  }
+
+  /* download section */
+
+  #download {
+    width: 80%;
+  }
+
+  #download h3 {
+    font-size: 1.5rem;
+  }
+
+  /* download section buttons */
+
+  .btn-class {
+    text-align: center;
+  }
+
+  .dwn-btn {
+    margin: 3% 0.5%;
+  }
+}
